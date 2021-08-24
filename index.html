@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100vh;
+		}
+		.emoji{
+			font-size: 10rem;
+			cursor: pointer;
+		}
+		.closed{
+			display: none;
+		}
+		.open{
+			display: none;
+		}
+		.active{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<div class="emoji closed active">🙈</div>
+<div class="emoji open">🙉</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
